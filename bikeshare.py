@@ -68,7 +68,6 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     # load data file into a dataframe
-    underscore = '_'
     city_list = city.split(' ')
     csvName = '_'.join(city_list)
     df = pd.read_csv(csvName+'.csv')
