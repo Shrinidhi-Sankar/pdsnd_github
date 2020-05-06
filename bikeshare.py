@@ -20,19 +20,19 @@ def get_filters():
     valid_cities = ['chicago','new york city','washington']
     while True:
         city = input("Please select one of these cities - Chicago, New York City or Washington: ").lower();
-        print(city);
+        print('The city you have entered is',city)
         try:
             if valid_cities.index(city) > -1:
-                break;
+                break
         except ValueError:
-            print("Sorry the city you entered is not supported");
-            continue;
+            print("Sorry the city you entered is not supported")
+            continue
     print("Now let's add some filters to the data set")
     # TO DO: get user input for month (all, january, february, ... , june)
     valid_months = ['all', 'january', 'february', 'march', 'april', 'may' , 'june'];
     while True:
         month = input("Please enter a month from january to june, if you don't require a filter enter 'all': ");
-        print(month);
+        print('The month you have entered is',month);
         try:
             if valid_months.index(month) > -1:
                 break;
@@ -44,7 +44,7 @@ def get_filters():
     valid_days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday' , 'saturday','sunday'];
     while True:
         day = input("Please enter a day to filter, if you don't require a filter enter 'all': ");
-        print(day);
+        print('The day you have entered is',day);
         try:
             if valid_days.index(day) > -1:
                 break;
