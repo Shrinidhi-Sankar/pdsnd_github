@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+# 6th May 2020
 
 ### Project Title
-Replace the Project Title
+# Bike sharing
 
 ### Description
-Describe what your project is about and what it does
+# Analyzing a bike sharing data set with python for udacity
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+It is a part of Udacity nanodegree. It involves creating a project for modelling with python. It was challenging and I learnt a lot from this. I am proud of my project.
 
