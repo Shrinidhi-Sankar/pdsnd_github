@@ -1,11 +1,11 @@
 ### Date created
-# 6th May 2020
+#### 6th May 2020
 
 ### Project Title
-# Bike sharing
+#### Bike sharing
 
 ### Description
-# Analyzing a bike sharing data set with python for udacity
+#### Analyzing a bike sharing data set with python for udacity
 
 ### Files used
 bikeshare.py
