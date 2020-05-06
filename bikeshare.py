@@ -27,10 +27,11 @@ def get_filters():
         except ValueError:
             print("Sorry the city you entered is not supported");
             continue;
+    print("Now let's add some filters to the data set")
     # TO DO: get user input for month (all, january, february, ... , june)
     valid_months = ['all', 'january', 'february', 'march', 'april', 'may' , 'june'];
     while True:
-        month = input("Please enter the month: ");
+        month = input("Please enter a month from january to june, if you don't require a filter enter 'all': ");
         print(month);
         try:
             if valid_months.index(month) > -1:
@@ -42,7 +43,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     valid_days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday' , 'saturday','sunday'];
     while True:
-        day = input("Please enter the day: ");
+        day = input("Please enter a day to filter, if you don't require a filter enter 'all': ");
         print(day);
         try:
             if valid_days.index(day) > -1:
